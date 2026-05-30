@@ -1,23 +1,23 @@
 # ☀️ Solar Panel Fire & Environment Monitoring System
 
-این پروژه یک سیستم مانیتورینگ هوشمند برای پنل‌های خورشیدی است که داده‌های دما، رطوبت و دود را از طریق آردوئینو جمع‌آوری کرده و در یک داشبورد گرافیکی نمایش می‌دهد.
+This project is an intelligent monitoring system for solar panels that collects temperature, humidity, and smoke data through an Arduino board and displays them on a graphical dashboard.
 
-## 🛠 تکنولوژی‌های استفاده شده
+## 🛠 Technologies Used
 - **Hardware:** Arduino UNO R4 WiFi, SHT20 Sensor, MQ Smoke Sensor
-- **Database:** InfluxDB 2.7 (Time-series)
+- **Database:** InfluxDB 2.7 (Time-series database)
 - **Visualization:** Grafana
 - **Backend:** Python (Ingestion Service)
 - **Deployment:** Docker & Docker Compose
 
-## 🚀 راهنمای نصب و اجرا
+## 🚀 Installation and Setup Guide
 
-برای اجرای پروژه در شبکه داخلی دانشگاه، مراحل زیر را دنبال کنید:
+To run this project inside the university's local network, follow these steps:
 
-### ۱. تنظیمات سخت‌افزار
-مطمئن شوید آردوئینو به وای‌فای متصل است و یک IP ثابت (Static IP) در شبکه دارد.
+### 1. Hardware Setup
+Make sure the Arduino is connected to Wi-Fi and has a static IP address on the network.
 
-### ۲. تنظیمات نرم‌افزار
-ابتدا مخزن را کلون کنید:
+### 2. Software Setup
+First, clone the repository:
 ```bash
 git clone https://github.com/YOUR_USERNAME/solar-monitoring-system.git
 cd solar-monitoring-system
