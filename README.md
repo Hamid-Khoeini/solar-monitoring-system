@@ -19,5 +19,5 @@ Make sure the Arduino is connected to Wi-Fi and has a static IP address on the n
 ### 2. Software Setup
 First, clone the repository:
 ```bash
-git clone https://github.com/YOUR_USERNAME/solar-monitoring-system.git
+git clone https://github.com/Hamid-Khoeini/solar-monitoring-system.git
 cd solar-monitoring-system
